@@ -1,0 +1,11 @@
+﻿## izbornik - talijanski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+pocetna=Pagina di avvio
+o_nama=Chi Siamo
+kontakt=Contatto
+upute_koristenja=User instructions
+uvjeti_koristenja=Terms of Advertising
+karta=Mappa
+registracija=Registrazione
+## -------------------------------------------------------------------------------- ##

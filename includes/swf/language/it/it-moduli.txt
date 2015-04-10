@@ -1,0 +1,66 @@
+﻿## moduli - talijanski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+trazilica_po_tipu_smjestaja=Cerca per tipo di alloggio
+trazilica_po_mjestima=Ricerca di posti
+## -------------------------------------------------------------------------------- ##
+
+
+pronadi_upise_koji_imaju=Trova le voci che hanno
+sve_rijeci=tutte le parole
+bilo_koja_rijec=Qualsiasi parola
+tocan_izraz=Frase esatta
+## -------------------------------------------------------------------------------- ##
+
+obavezno_odaberite_tip_smjestaja=Assicurarsi di selezionare il tipo di alloggio:
+## -------------------------------------------------------------------------------- ##
+
+hotel_apartman=Suite hotel
+kuca_bez_domacina=Casa senza proprietario
+robinzonski_turizam=Robinson turismo
+krstarenje_brodom=Nave da crociera
+hotel_studio=Hotel Studio
+kuća_apartman=Casa plurifamiliare
+objekt_na_osami=Casa plurifamiliare
+izlet_brodom=Casa plurifamiliare
+hotel_soba=Camere d'hotel
+kuca_studio=Casa Studio
+mobilna_kuca=Casa mobile
+najam_jedrilice=affitto - Barca a vela
+hostel=Ostello
+kuca_soba=Casa camera
+auto_kamp=Campeggio
+najam_broda=Pensione
+pansion=Pensione
+villa=Villa
+bungalov= Bungalow
+najam_jahti=Charter-yacht
+## -------------------------------------------------------------------------------- ##
+
+trazi=ricerca
+## -------------------------------------------------------------------------------- ##
+
+potraznja_smjestaja=La domanda di alloggio / servizi
+turisticke_agencije=Agenzie di viaggio
+restorani=Ristoranti
+zabavni_sadrzaj=Contenuti di intrattenimento
+## -------------------------------------------------------------------------------- ##
+
+prijava_korisnika=Login / logout degli utenti
+korisnicko_ime=Nome utente
+lozinka=Password
+zapamti=Ricordami
+prijava=Login
+## -------------------------------------------------------------------------------- ##
+
+zaboravili_ste_lozinku=Password dimenticata?
+zaboravili_ste_korisnicko_ime= Nome utente dimenticato?
+kreiraj_korisnicki_racun=Registrati 
+## -------------------------------------------------------------------------------- ##
+
+login_greska=Nome utente e password non corrispondono o non si dispone di un account.
+## -------------------------------------------------------------------------------- ##
+
+tecajna_lista=Tassi di cambio
+pratite_nas_na_drustvenim_mrezama=Seguici sui social network:
+## -------------------------------------------------------------------------------- ##

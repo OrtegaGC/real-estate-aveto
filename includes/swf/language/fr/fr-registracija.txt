@@ -1,0 +1,46 @@
+﻿## registracija - francusi jezik ##
+## -------------------------------------------------------------------------------- ##
+
+page_title=Inscription  
+## -------------------------------------------------------------------------------- ##
+
+naziv_obrasca=Création de compte
+obavezna_polja=Champ requis
+tip_korisnika=Tip korisnika:
+oglasivac=Oglašivač(ponuda):
+korisnik_usluga=Korisnik usluga (potražnja):
+## -------------------------------------------------------------------------------- ##
+
+ime=Nom:
+prezime=Prezime:
+korisnicko_ime=Identifiant:
+lozinka=Mot de passe:
+potvrda_lozinke=Confirmez le mot de passe:
+email=Adresse e-mail:
+
+
+adresa=Adress:
+postanski_broj=Code postal:
+grad=Ville:	
+drzava=Pays:
+broj_telefona=Contact téléphonique:
+broj_mobitela=Mobile:
+oib=TVA:
+tvrtka=Entreprise:
+## -------------------------------------------------------------------------------- ##	
+
+uvjeti_1=Slažem se s
+uvjeti_2=uvjetima korištenja
+registracija=Inscription
+odustani=Odustani
+## -------------------------------------------------------------------------------- ##
+ 
+
+	
+	
+
+	
+
+
+	
+

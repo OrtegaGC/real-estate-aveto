@@ -1,0 +1,27 @@
+﻿## registracija - njemacki jezik ##
+## -------------------------------------------------------------------------------- ##
+
+registracija_korisnika=Benutzerregistrierung
+obavezno_polje=Benötigtes Feld
+ime=Name
+korisnicko_ime=Benutzername
+lozinka=Passwort
+potvrda_lozinke=Passwort bestätigen
+email=E-Mail-Adresse
+adresa=Adresse
+postanski_broj=Zip
+grad=Stadt
+drzava=Staat
+telefon=Kontakt-Telefonnummer
+mobitel=Handy
+oib=MwSt.
+tvrtka=Firma
+## -------------------------------------------------------------------------------- ##
+
+
+pritiskom_na_gumb_registracija_prihvacate_uvjete_koristenja=Durch Drücken der Taste registrieren akzeptiere die Nutzungsbedingungen
+## -------------------------------------------------------------------------------- ##
+
+
+registracija=Registrieren
+## -------------------------------------------------------------------------------- ##

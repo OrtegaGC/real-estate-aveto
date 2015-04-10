@@ -1,0 +1,80 @@
+﻿## moduli - francuski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+
+trazilica_po_tipu_smjestaja=Suche nach Art der Unterkunft
+trazi=Suche
+pronadi_upise_koji_imaju=Finde Einträge mit
+sve_rijeci=Allen Wörtern 
+bilo_koja_rijec=Einem Wort
+tocan_izraz=Exakter Ausdruck
+## -------------------------------------------------------------------------------- ##
+
+trazilica_po_mjestima=Suche nach Orten
+odaberite_zupaniju=Wählen Region
+odaberite_mjesto=wählen Sie die Stadt
+## -------------------------------------------------------------------------------- ##
+
+obavezno_odaberite_tip_smjestaja=Achten Sie darauf, die Art der Unterkunft wählen
+hotel_apartman=Hotel - Wohnung
+kuca_bez_domacina=Haus ohne einen Host
+robinzonski_turizam=Robinson Tourismus 
+krstarenje_brodom=Kreuzfahrtschiff
+hotel_studio= Hotel - Studio
+kuca_apartman=Haus - Wohnung
+objekt_na_osami=Ruhigen Urlaub
+izlet_brodom=Bootsfahrt
+hotel_soba=Hotel - Zimmer
+kuca_studio=Haus - Studio
+mobilna_kuca=Mobile Home
+najam_jedrilice=Mieten - Segelboote
+hostel=Hostel
+kuca_soba=Haus - Zimmer
+auto_kamp=Auto Camp
+najam_broda=Mieten - ein Boot
+pansion=Pension
+villa=Villa
+bungalov= Bungalow
+najam_jahti=Mieten - Yachts
+## -------------------------------------------------------------------------------- ##
+
+trazi=Suche
+## -------------------------------------------------------------------------------- ##
+
+potraznja_smjestaja=Potražnja smještaja / usluga
+turisticke_agencije=Turističke agencije
+restorani=Restorani
+zabavni_sadrzaj=Zabavni sadržaj
+## -------------------------------------------------------------------------------- ##
+
+prijava_korisnika=Benutzer-Login
+korisnicko_ime=Benutzername
+lozinka=Passwort
+zapamti_me=Angemeldet bleiben
+prijava=Anmelden
+## -------------------------------------------------------------------------------- ##
+
+zaboravili_ste_lozinku=Passwort vergessen?
+zaboravili_ste_korisnicko_ime=Benutzername vergessen?
+kreiraj_korisnicki_racun=Registrieren
+## -------------------------------------------------------------------------------- ##
+
+greska=Fehler
+login_greska=Benutzername und Passwort falsch oder das Benutzerkonto existiert noch nicht!
+## -------------------------------------------------------------------------------- ##
+
+upoznajte_hrvatsku=Willkommen in Kroatien
+vise=Weiterlesen...
+## -------------------------------------------------------------------------------- ##
+
+tecajna_lista=Wechelkurse
+valuta=Währung
+kupovni=Käuflich
+prodajni=Vertrieb
+srednji=Mitte
+iznos=Betrag
+izracunaj=Berechnen
+## -------------------------------------------------------------------------------- ##
+
+pratite_nas_na_drustvenim_mrezama=Folgen Sie uns auf soziale Netzwerke:
+## -------------------------------------------------------------------------------- ##

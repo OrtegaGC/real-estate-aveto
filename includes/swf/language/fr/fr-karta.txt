@@ -1,0 +1,7 @@
+﻿## karta - francuski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+polaziste=Le point de départ
+odrediste=Destination
+pronadi_rutu=Rechercher un parcours
+## -------------------------------------------------------------------------------- ##

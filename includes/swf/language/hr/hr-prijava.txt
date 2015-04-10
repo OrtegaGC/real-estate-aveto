@@ -1,0 +1,9 @@
+﻿## prijava - hrvatski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+page_title=Prijava
+## -------------------------------------------------------------------------------- ##
+
+prijava_greska_1=Korisničko ime i lozinka se ne podudaraju!
+pristup_zabranjen=Pristup zabranjen! Morate se prijaviti!
+## -------------------------------------------------------------------------------- ##

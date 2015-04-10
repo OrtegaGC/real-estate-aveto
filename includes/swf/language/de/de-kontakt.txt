@@ -1,0 +1,18 @@
+﻿## kontakt - njemacki jezik ##
+## -------------------------------------------------------------------------------- ##
+
+kontakt_obrazac=Kontaktformular
+## -------------------------------------------------------------------------------- ##
+
+posalji_e-mail_sva_polja_s_oznakom_zvjezdica_su_obavezna=Eine E-Mail senden. Alle mit Sterne markierten Felder werden benötigt
+## -------------------------------------------------------------------------------- ##
+
+ime=Name
+email=E-mail
+predmet=Betreff
+poruka=Nachricht 
+## -------------------------------------------------------------------------------- ##
+
+posalji_email=E-Mail senden
+## -------------------------------------------------------------------------------- ##
+ 

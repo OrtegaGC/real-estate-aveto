@@ -1,0 +1,11 @@
+﻿## izbornik - hrvatski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+pocetna=Početna
+o_nama=O nama
+kontakt=Kontakt
+karta=Karta
+upute_koristenja=Upute korištenja
+uvjeti_koristenja=Uvjeti korištenja
+registracija=Registracija novog korisnika
+## -------------------------------------------------------------------------------- ##

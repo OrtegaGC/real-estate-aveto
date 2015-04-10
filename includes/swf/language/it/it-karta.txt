@@ -1,0 +1,7 @@
+﻿## karta - talijanski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+polaziste=il punto di partenza
+odrediste=Destinazione
+pronadi_rutu=Trova il percorso
+## -------------------------------------------------------------------------------- ##

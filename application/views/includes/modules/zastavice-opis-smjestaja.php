@@ -1,0 +1,5 @@
+<?php if($oglas[0]['opsirnijiOpisSmjestajaHr'] != ''):?><span class="zastavice first-item"><img src="<?php echo base_url();?>includes/images/hr.gif" width="18" height="12" alt="hr" /> </span><?php endif;?>
+<?php if($oglas[0]['opsirnijiOpisSmjestajaEn'] != ''):?><span class="zastavice"><img src="<?php echo base_url();?>includes/images/en.gif" width="18" height="12" alt="hr" /> </span><?php endif;?>
+<?php if($oglas[0]['opsirnijiOpisSmjestajaDe'] != ''):?><span class="zastavice"><img src="<?php echo base_url();?>includes/images/de.gif" width="18" height="12" alt="hr" /> </span><?php endif;?>
+<?php if($oglas[0]['opsirnijiOpisSmjestajaIt'] != ''):?><span class="zastavice"><img src="<?php echo base_url();?>includes/images/it.gif" width="18" height="12" alt="hr" /> </span><?php endif;?>
+<?php if($oglas[0]['opsirnijiOpisSmjestajaFr'] != ''):?><span class="zastavice"><img src="<?php echo base_url();?>includes/images/fr.gif" width="18" height="12" alt="hr" /> </span><?php endif;?>

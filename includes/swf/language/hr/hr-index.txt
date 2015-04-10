@@ -1,0 +1,25 @@
+﻿## index - hrvatski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+page_title=Početna
+## -------------------------------------------------------------------------------- ##
+
+trazilica_na_karti=Tražilica na karti po mjestima
+## -------------------------------------------------------------------------------- ##
+
+primorsko_goranska=Primorsko-goranska
+istarska=Istarska
+licko_senjska=Ličko-senjska
+zadarska=Zadarska
+sibensko_kninska=Šibensko-kninska
+splitsko_dalmatinska=Splitsko-dalmatinska
+dubrovacko_neretvanska=Dubrovačko-neretvanska
+## -------------------------------------------------------------------------------- ##
+
+
+
+
+
+
+
+

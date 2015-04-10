@@ -1,0 +1,19 @@
+﻿## index - talijanski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+page_title=Home
+## -------------------------------------------------------------------------------- ##
+
+trazilica_na_karti= Ricerca di luoghi sulla mappa
+## -------------------------------------------------------------------------------- ##
+
+primorsko_goranska=Litoraneo-montana
+istarska=Istriana
+licko_senjska=Lika e di segna
+zadarska=Zaratina
+sibensko_kninska=Sebeniko e Tenin
+splitsko_dalmatinska=Spalatino-Dalmata
+dubrovacko_neretvanska=Raguseo- Narentana
+## -------------------------------------------------------------------------------- ##
+
+

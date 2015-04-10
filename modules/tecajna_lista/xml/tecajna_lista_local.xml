@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<ExchRates>
+  <ExchRate>
+    <Bank>Hrvatska narodna banka</Bank>
+    <CurrencyBase>HRK</CurrencyBase>
+    <Date>21.03.2015.</Date>
+    <Currency Code="036">
+      <Name>AUD</Name>
+      <Unit>1</Unit>
+      <BuyRateCache>0,000000</BuyRateCache>
+      <BuyRateForeign>5,475303</BuyRateForeign>
+      <MeanRate>5,491778</MeanRate>
+      <SellRateForeign>5,508253</SellRateForeign>
+      <SellRateCache>0,000000</SellRateCache>
+    </Currency>
+    <Currency Code="124">
+      <Name>CAD</Name>
+      <Unit>1</Unit>
+      <BuyRateCache>0,000000</BuyRateCache>
+      <BuyRateForeign>5,620197</BuyRateForeign>
+      <MeanRate>5,637108</MeanRate>
+      <SellRateForeign>5,654019</SellRateForeign>
+      <SellRateCache>0,000000</SellRateCache>
+    </Currency>
+    <Currency Code="203">
+      <Name>CZK</Name>
+      <Unit>1</Unit>
+      <BuyRateCache>0,000000</BuyRateCache>
+      <BuyRateForeign>0,277724</BuyRateForeign>
+      <MeanRate>0,278560</MeanRate>
+      <SellRateForeign>0,279396</SellRateForeign>
+      <SellRateCache>0,000000</SellRateCache>
+    </Currency>
+    <Currency Code="208">
+      <Name>DKK</Name>
+      <Unit>1</Unit>
+      <BuyRateCache>0,000000</BuyRateCache>
+      <BuyRateForeign>1,023156</BuyRateForeign>
+      <MeanRate>1,026235</MeanRate>
+      <SellRateForeign>1,029314</SellRateForeign>
+      <SellRateCache>0,000000</SellRateCache>
+    </Currency>
+    <Currency Code="348">
+      <Name>HUF</Name>
+      <Unit>100</Unit>
+      <BuyRateCache>0,000000</BuyRateCache>
+      <BuyRateForeign>2,510821</BuyRateForeign>
+      <MeanRate>2,518376</MeanRate>
+      <SellRateForeign>2,525931</SellRateForeign>
+      <SellRateCache>0,000000</SellRateCache>
+    </Currency>
+    <Currency Code="392">
+      <Name>JPY</Name>
+      <Unit>100</Unit>
+      <BuyRateCache>0,000000</BuyRateCache>
+      <BuyRateForeign>5,892541</BuyRateForeign>
+      <MeanRate>5,910272</MeanRate>
+      <SellRateForeign>5,928003</SellRateForeign>
+      <SellRateCache>0,000000</SellRateCache>
+    </Currency>
+    <Currency Code="578">
+      <Name>NOK</Name>
+      <Unit>1</Unit>
+      <BuyRateCache>0,000000</BuyRateCache>
+      <BuyRateForeign>0,880777</BuyRateForeign>
+      <MeanRate>0,883427</MeanRate>
+      <SellRateForeign>0,886077</SellRateForeign>
+      <SellRateCache>0,000000</SellRateCache>
+    </Currency>
+    <Currency Code="752">
+      <Name>SEK</Name>
+      <Unit>1</Unit>
+      <BuyRateCache>0,000000</BuyRateCache>
+      <BuyRateForeign>0,821546</BuyRateForeign>
+      <MeanRate>0,824018</MeanRate>
+      <SellRateForeign>0,826490</SellRateForeign>
+      <SellRateCache>0,000000</SellRateCache>
+    </Currency>
+    <Currency Code="756">
+      <Name>CHF</Name>
+      <Unit>1</Unit>
+      <BuyRateCache>0,000000</BuyRateCache>
+      <BuyRateForeign>7,230993</BuyRateForeign>
+      <MeanRate>7,252751</MeanRate>
+      <SellRateForeign>7,274509</SellRateForeign>
+      <SellRateCache>0,000000</SellRateCache>
+    </Currency>
+    <Currency Code="826">
+      <Name>GBP</Name>
+      <Unit>1</Unit>
+      <BuyRateCache>0,000000</BuyRateCache>
+      <BuyRateForeign>10,520711</BuyRateForeign>
+      <MeanRate>10,552368</MeanRate>
+      <SellRateForeign>10,584025</SellRateForeign>
+      <SellRateCache>0,000000</SellRateCache>
+    </Currency>
+    <Currency Code="840">
+      <Name>USD</Name>
+      <Unit>1</Unit>
+      <BuyRateCache>0,000000</BuyRateCache>
+      <BuyRateForeign>7,132235</BuyRateForeign>
+      <MeanRate>7,153696</MeanRate>
+      <SellRateForeign>7,175157</SellRateForeign>
+      <SellRateCache>0,000000</SellRateCache>
+    </Currency>
+    <Currency Code="978">
+      <Name>EUR</Name>
+      <Unit>1</Unit>
+      <BuyRateCache>0,000000</BuyRateCache>
+      <BuyRateForeign>7,624359</BuyRateForeign>
+      <MeanRate>7,647301</MeanRate>
+      <SellRateForeign>7,670243</SellRateForeign>
+      <SellRateCache>0,000000</SellRateCache>
+    </Currency>
+    <Currency Code="985">
+      <Name>PLN</Name>
+      <Unit>1</Unit>
+      <BuyRateCache>0,000000</BuyRateCache>
+      <BuyRateForeign>1,847076</BuyRateForeign>
+      <MeanRate>1,852634</MeanRate>
+      <SellRateForeign>1,858192</SellRateForeign>
+      <SellRateCache>0,000000</SellRateCache>
+    </Currency>
+  </ExchRate>
+</ExchRates>

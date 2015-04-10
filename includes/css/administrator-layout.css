@@ -1,0 +1,684 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+ v2.0 | 20110126
+ License: none (public domain)
+ */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background:url('../images/bg.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+	color: transparent;
+	font-size: 0;
+	vertical-align: middle;
+	/*
+	 For IE.
+	 http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+	 */
+	-ms-interpolation-mode: bicubic;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+   
+.pocisti:after {
+	content: ".";
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden; 
+} 
+ 
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.cb {
+	clear: both;
+}
+
+/* ==========================================================================
+   ========================================================================== */
+ 
+/* -- reset bordera na img tagu [IE] -- */
+img { border: none; }
+
+/* -- -- */
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: “Trebuchet MS”, Arial , sans-serif;
+	color:#4a4a4a;
+	font-size: 12px; /* -- bilo 14px 1.9.2013. --*/
+	background-color: #f5f6f6;
+}
+
+p {
+	line-height: 130%;
+	margin: 5px 0px;
+	text-align: justify;
+}
+
+a {
+	text-decoration:none;
+	color: #0969cd; /* dodano 15.4.2013. */
+}
+
+.required-item {
+	color: #ff0000;
+}
+
+p.dialog-item {
+	margin: 0;
+}
+
+.info {
+	padding: 10px;
+	background-color: #D6EBFF;
+    border: 1px solid #3399FF;
+    border-radius: 3px 3px 3px 3px;
+	font-size: 10pt;
+}
+
+textarea {
+	border: 1px solid #c0c0c0;
+	padding: 5px;
+	border-radius: 5px;
+	color: #8f8d8f;
+	background-color: #f0f0f0;
+	height: 50px;
+}
+
+textarea:hover, textarea:focus {
+	background-color: #fff;
+}
+
+input[type="text"], input[type="password"] {
+	border: 1px solid #c0c0c0;
+	padding-left: 5px;
+	border-radius: 5px;
+	height: 28px;
+	background: url('../images/input-normal-bg.png') repeat-x 0 1px;
+	color: #8f8d8f;
+}
+
+input[type="text"]:hover, input[type="password"]:hover {
+	background: url('../images/input-hover-bg.png') repeat-x 0 1px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+	border: 1px solid #9ecaed;
+	background: none  #fdfcfd;
+	outline: none;
+    box-shadow: 0 0 5px #9ecaed;
+	-o-transition: 		.6s;
+    -ms-transition: 	.6s;
+    -moz-transition: 	.6s;
+	-webkit-transition: .6s;
+	transition: 		.6s;
+}
+
+
+input[type="button"], input[type="submit"] {
+	font-size: 14px;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	padding: 10px 20px;
+	border: 1px solid #cecece;
+	border-radius: 5px;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover {
+	background-color: #fff;
+	color:  #5488bd;
+	text-shadow: 1px 1px 1px #999;
+	border: 1px solid #9ecaed;
+}
+
+input[type="button"]:active, input[type="submit"]:active {
+	background-color: #66CCFF;
+	color: #fff;
+}
+
+.active, .opis {
+	font-weight: bold;
+}
+
+/* -- Prijava -- */
+#login-wrapper {
+    width:450px;
+	height:350px;
+    margin: 150px auto 0 auto;  
+    box-shadow: 0 0 5px #cfcfcf;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+	opacity:0.9;
+}
+
+.form-label {
+	font-weight: bold;
+}
+
+.submit {
+	width: 92px;
+	margin: 10px auto 0 auto;
+}
+
+#login-wrapper .error {
+	margin-bottom: 5px;
+	background-color: #FFD8CD;
+    border: 1px solid #FF4444;
+    border-radius: 5px;
+	padding: 5px;
+}
+
+.login-content {
+	width: 220px;
+	margin: 0 auto;
+}
+
+.login-content input[type="text"], 
+.login-content input[type="password"] {
+	width: 240px;
+	height:35px;
+}
+
+
+/* -- Header -- */
+
+#header-wrapper {
+	width: 940px;
+	margin: 10px auto 0 auto;
+	background-color: #0969cd;
+	color:white;
+	border: 1px solid #99ccff;
+	border-bottom: 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 10px;
+}
+
+#header-wrapper h1 {
+	font-size: 28px;
+}
+
+#header-wrapper h1 > span {
+	font-weight: bold;
+}
+
+/* -- Content -- */
+
+#content-wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid #99ccff;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	display: table;
+	opacity:0.9;
+}
+
+#izbornik {
+	border-right: 1px solid #99ccff;
+	border-bottom-left-radius: 5px;
+	background-color: #de462b;
+	display: table-cell;
+	font-size: 14px;
+}
+
+#izbornik a {
+	color:white;
+	font-weight:bold;
+}
+
+#izbornik a:hover {
+	text-decoration:underline;
+}
+
+.izbornik {
+	padding: 5px;
+	line-height:3;
+}
+
+.sub-inactive {
+	display: none;
+}
+
+.sub-active {
+	margin-left: 5px;
+}
+
+#izbornik .last-item {
+	margin-top: 3px;
+	border-top: 1px solid #ddd;	
+}
+
+#sadrzaj {
+	width: 85%;
+	padding: 5px 5px 5px 15px;
+	display: table-cell;
+}
+
+.popis-korisnika .datumi {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.popis-korisnika .datumi label {
+	margin-right: 5px;
+}
+
+.popis-korisnika .datumi input {
+	margin-right: 10px;
+}
+
+.popis-oglasa .trazilica {
+	margin: 10px 0;
+}
+
+.popis-oglasa .trazilica input {
+	width: 300px;
+}
+
+.popis-oglasa .trazilica #oglas-rezultati {
+	
+}
+
+.legenda .legenda-aktivan-1, .legenda .legenda-aktivan-0 {
+	width: 20px;
+	height: 10px;
+	display: inline-block;
+}
+
+.legenda .legenda-aktivan-1, .popis-oglasa .aktivan-1 {
+	background-color: #00FF99;
+}
+.legenda .legenda-aktivan-0, .popis-oglasa .aktivan-0 {
+	background-color: #FF8C8C;
+}
+
+.popis-korisnika table, .popis-oglasa table {
+	width: 100%;
+	border-collapse: separate;
+    border-spacing: 2px;
+}
+
+.popis-korisnika table td, .popis-oglasa table td {
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.popis-korisnika .leading-row, .popis-oglasa .leading-row  {
+	font-weight: bold;
+	text-align: center;
+}
+
+.popis-korisnika .info, .popis-oglasa .info {
+	display: none;
+	width: 97%;
+	margin-bottom: 5px;
+}
+
+.popis-korisnika .tip-1 {
+	color: #cc3300;
+}
+
+.popis-korisnika .tip-2 {
+	color: #6699ff;
+}
+
+.popis-korisnika .tip-3 {
+	color: #33cc33;
+}
+
+/* -- Pagination -- */
+#pagination div {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 16px;
+}
+#pagination span.previous, #pagination span.first, 
+#pagination span.next, #pagination span.last {
+	margin: 0 3px;
+}
+
+#pagination span.page {
+	margin: 0 5px;
+}
+
+/* -- Registracija, Novi oglas -- */
+.form-registracija input[type="text"], .form-registracija input[type="password"], 
+.form-novi-oglas input[type="text"] {
+	width: 250px;
+}
+
+.form-registracija {
+	padding-left: 10px;
+}
+
+.form-registracija .item-1, .form-novi-oglas .item-1, #novi-oglas .item-1 {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.form-registracija .item-2, .form-novi-oglas .item-2 {
+	margin: 20px 0;
+	background-color: #ffe980;
+	padding: 5px 0 5px 5px;
+	width: 760px;
+	border: 1px solid #ffe980;
+	border-radius: 5px;
+}
+
+.form-registracija .item-3 {
+	background-color: #ffe980;
+	padding: 5px 0 5px 5px;
+	width: 760px;
+	border: 1px solid #ff4444;
+	border-radius: 5px;
+}
+
+.form-radio p {
+	float: left;
+	margin-right: 10px;
+}
+
+.form-novi-oglas .reset {
+	display: none;
+	position: relative;
+	top: -2px;
+	cursor: pointer;
+}
+
+.form-novi-oglas #korisnik-rezultati,
+.form-novi-apartman #oglas-rezultati {
+	display: none;
+	width: 255px;
+	border: 1px solid #ccc;	
+	margin-top: 5px;
+	max-height: 150px;
+	overflow-y: auto;
+}
+
+.form-novi-oglas #korisnik-rezultati p,
+.form-novi-apartman #oglas-rezultati p {
+	padding: 5px;
+	border: 1px solid #fff;
+	border-left: 0;
+	border-right: 0;
+}
+
+.form-novi-oglas #korisnik-rezultati p.izaberi:hover,
+.form-novi-apartman #oglas-rezultati p.izaberi:hover {
+	cursor: pointer;
+	background-color: #f1f1f1;
+	color: #000;
+}
+
+.form-novi-oglas #korisnik-rezultati .result-info,
+.form-novi-apartman #oglas-rezultati .result-info {
+	background-color: #fafafa;
+	margin: 0;
+	font-weight: bold;
+}
+
+.form-novi-oglas #korisnik-rezultati p.hide,
+.form-novi-apartman #oglas-rezultati p.hide {
+	text-align: center;
+	margin: 0;
+	border-top: 1px solid #ccc;
+}
+
+.form-novi-oglas #korisnik-rezultati p.hide:hover, 
+.form-novi-apartman #oglas-rezultati p.hide:hover {
+	cursor: pointer;
+	background-color: #f1f1f1;
+}
+
+.form-novi-oglas .form-radio p {
+	width: 160px;
+	margin: 0;
+}
+
+.form-novi-oglas textarea {
+	width: 760px;
+}
+
+.form-novi-oglas .dodatni-podaci input[type="text"] {
+	width: 160px;
+}
+
+
+.form-novi-oglas .dodatni-podaci .column-1, 
+.form-novi-oglas .dodatni-podaci .column-2,
+.form-novi-oglas .dodatni-podaci .column-3 {
+	float: left;
+	margin-right: 33px;
+}
+
+.form-novi-oglas .dodatni-podaci .column-4 {
+	float: left;
+}
+
+.form-novi-oglas .submit {
+	width: auto;
+	display: inline-block;
+	margin: 10px auto;
+}
+
+.form-label {
+	margin: 10px 0 5px 0;
+	font-weight: bold;
+}
+
+.form-registracija .type-text {
+	width: 97%;
+}
+
+.form-registracija .error, .form-novi-oglas .error {
+	margin-bottom: 5px;
+	background-color: #FFD8CD;
+    border: 1px solid #FF4444;
+    border-radius: 5px;
+	padding: 5px;
+}
+
+.form-registracija .error, .form-novi-oglas .error {
+	width: 245px;
+}
+
+.form-novi-oglas .dodatni-podaci .error {
+	width: 155px;
+}
+
+.form-novi-apartman .dodatni-podaci div {
+	float: left;
+	width: 270px;
+}
+
+#novi-oglas {
+	/*border-right: 1px solid #999;*/
+}
+
+#novi-oglas .error {
+	width: 43%;
+}
+
+
+.form-registracija .item-3 .error {
+	width: 98%;
+}
+
+.form-registracija .submit {
+	margin-top: 10px;
+	width: auto;
+}
+
+#novi-oglas input[type="text"] {
+	width: 300px;
+}
+
+.multi-column p {
+	width: 180px;
+	float: left;
+}
+
+#novi-oglas .dodatni-podaci div {
+	float: left;
+	width: 350px;
+}
+
+/* -- uređivanje slika -- */
+.uredi-slike .popis-slika {
+	width: 698px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.uredi-slike .popis-slika div {
+	float: left;
+	margin-left: 15px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.uredi-slike .popis-slika p {
+	padding: 5px 0;
+	background-color: #E5E5E5;
+	text-align: center;
+}
+
+.uredi-slike p.item-2, .popis-slika .error {
+	width: 665px;
+	margin: 10px auto;
+	font-weight: bold;
+}
+
+.uredi-slike p.item-2 {
+	background-color: #ffe980 !important;
+}
+
+.popis-slika .error {
+	background-color: #FFD8CD !important;
+}
+
+.uredi-slike .result {
+	margin-bottom: 10px;
+}
+
+/*
+#korisnicke-stranice .uredi-slike div:first-child {
+	margin-left: 1px;
+}
+*/
+
+.uredi-slike .popis-slika img {
+	width: 200px;
+	height: 150px;
+}
+
+/* -- karta -- */
+#map-wrapper {
+	width: 760px;
+	height: 560px;
+	padding: 2px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+
+#map-canvas {
+	margin: 0 auto;
+	width: 760px;
+	height: 560px;
+}
+
+#geo-coords input {
+	width: 150px;
+}
+
+/* -- Footer -- */
+
+#footer-wrapper {
+
+}
+
+#footer {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* -- AJAX -- */
+.loading, .loading-0 {
+	display: none;
+	position: static;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	height: 32px;
+	width: 700px;
+	background: rgba( 255, 255, 255, 0 ) url('../images/ajax-loader-2.gif') 50% 50% no-repeat;
+}
+
+.loading-0 {
+	float: right;
+	width: 32px;
+	margin-right: 505px;
+}

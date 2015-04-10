@@ -1,0 +1,2066 @@
+/*
+ http://meyerweb.com/eric/tools/css/reset/
+ v2.0 | 20110126
+ License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+    line-height:1.3;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    color: transparent;
+    font-size: 0;
+    vertical-align: middle;
+    /*
+     For IE.
+     http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+    */
+    -ms-interpolation-mode: bicubic;
+}
+
+/* ==========================================================================
+ Helper classes
+ ========================================================================== */
+/*
+ BOJE -------------
+
+ plava hover text: #0D58AD;
+
+ plava text: #007BFF;
+ plava pozadina #0077D2
+
+ narančasta: #ffcc00;
+
+ plava h3:  #0077D2;
+
+ LOGO --------------
+
+ svijetlo plava: #00ccff;
+
+ plava: #0064c8;
+
+ zuta: #fffc00;
+
+ crvena: #ff0000;
+
+ text-siva: #4a4a4a;
+
+ border color #cecece;
+
+*/
+
+.pocisti:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.cb {
+    clear: both;
+}
+
+/* ==========================================================================
+ ========================================================================== */
+
+/* -- reset bordera na img tagu [IE] -- */
+img {
+    border: none;
+}
+
+/* -- -- */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: “Trebuchet MS”, Arial, sans-serif;
+    color: #4a4a4a;
+    font-size: 12px; /* -- bilo 14px 1.9.2013. --*/
+}
+
+/*
+ p {
+ line-height: 130%;
+ margin: 5px 0px;
+ text-align: justify;
+ display: inline-block;
+ }
+*/
+
+textarea {
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    border-radius: 5px;
+    color: #8f8d8f;
+    background-color: #f0f0f0;
+    width: 98.5%;
+    height: 50px;
+}
+
+input[type="text"], input[type="password"] {
+    border: 1px solid #c0c0c0;
+    padding-left: 5px;
+    border-radius: 5px;
+    height: 28px;
+    background: url('../images/input-normal-bg.png') repeat-x 0 1px;
+    color: #8f8d8f;
+}
+
+input[type="text"]:hover, input[type="password"]:hover {
+    background: url('../images/input-hover-bg.png') repeat-x 0 1px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
+    border: 1px solid #9ecaed;
+    background: none #fdfcfd;
+    outline: none;
+    box-shadow: 0 0 5px #9ecaed;
+    -o-transition: .6s;
+    -ms-transition: .6s;
+    -moz-transition: .6s;
+    -webkit-transition: .6s;
+    transition: .6s;
+}
+
+input[type="button"], input[type="submit"] {
+    font-size: 14px;
+    color: rgb(88,88,88);
+    padding: 10px 20px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+}
+
+.submit a {
+    font-size: 14px;
+    color: rgb(88,88,88);
+    padding: 10px 20px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover {
+    background-color: #fff;
+    color: rgb(88,88,88);
+    text-decoration:underline;
+    border: 1px solid #9ecaed;
+}
+
+input[type="button"]:active, input[type="submit"]:active {
+    background-color: #66CCFF;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #0064c8; /* dodano 15.4.2013. */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ponuda_potraznja {
+    float:right;
+    font-family:Arial;
+    font-weight: bold;
+/*    color:#0093e1;*/
+    color:#ffffff;
+/*    text-shadow:
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;*/
+/*    margin-top:-100px;*/
+    margin-top:-65px;
+    font-size:40px;
+    letter-spacing:1.7pt;
+}
+
+.turisticko_oglasavanje {
+    text-align: center;
+    font-family:Arial;
+    font-size: 60px;
+    padding-top:110px;
+/*    padding: 80px;*/
+    /*color:transparent;*/
+    color:#fff;
+/*    color:#99dcf7;*/
+/*    opacity:0.6;*/
+    text-shadow:-1px -1px 0px #fff, 1px -1px 0px #fff, -3px 3px 3px #666, 1px 1px 0px #fff;
+/*    text-shadow:-1px -1px 0px #99dcf7, 1px -1px 0px #99dcf7, -3px 3px 3px #666, 1px 1px 0px #99dcf7;*/
+}
+
+/* -- micanje crte na hover slike*/
+.jezik a:hover, .social-content a:hover, .fb-share a:hover,
+#gallery a:hover, #gallery-apartman a:hover {
+    text-decoration: none;
+}
+
+.required-item {
+    color: #ff0000;
+}
+
+.istaknuto {
+    color: #BF0000;
+}
+
+.hr {
+    width: 100% !important;
+    height: 1px !important;
+    border-top: 1px solid #cecece !important;
+    padding: 0 !important;
+    margin-top: 10px !important;
+}
+
+.space {
+    height: 1px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+i {
+    font-style: italic;
+}
+
+/* -- Takeover banneri -- */
+#left {
+    width:230px;
+    float:left;
+    margin-left:-240px;
+    position:absolute;
+}
+
+#right  {
+    width:230px;
+    float:right;
+    margin-right:-240px;
+    position:static;
+    margin-bottom:-1500px;
+}
+
+#takeover-wrapper {
+    width: 1440px;
+    margin: 10px auto;
+}
+
+#takeover-left, #takeover-right {
+    width: 230px;
+    float: left;
+    visibility: hidden;
+}
+
+#takeover-left {
+    margin-right: 10px;
+}
+
+#takeover-right {
+    margin-left: 10px;
+}
+
+/* -- Header -- */
+
+#header-wrapper {
+    width: 100%;
+    padding-bottom: 20px;
+    background: url('../images/header_bg_02.png') repeat-x 0 0;
+}
+
+#header {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header-first-row {
+    background: url('../images/nekretnine12_final.png') no-repeat;
+/*    background-color: #000000;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+/*    margin-bottom:100px;*/
+    margin-bottom:30px;
+}
+
+.jezik {
+    float: right;
+}
+
+.jezik span {
+    margin: 0 5px;
+}
+
+.logo {
+    width: 180px;
+    height: 190px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+/*    margin-top: 25px;*/
+    margin-top: 20px;
+}
+
+.logo img {
+    margin-bottom: 10px;
+}
+
+.logo a {
+    position: relative;
+    z-index: 999;
+}
+
+#potraznja {
+    margin: 10px 0;
+}
+
+.ponudapotraznja { 
+    margin-top:-90px;
+    margin-left: 10px;
+    width: 330px;
+}
+
+#potraznja p.cb {
+    float: right;
+}
+
+#potraznja h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    color: #0064C8;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    letter-spacing:1.2pt;
+}
+
+#potraznja .vise {
+    border-bottom: 1px solid #ccc;
+}
+
+#potraznja .vise p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.potraznja-intro {
+    float: left;
+    margin: 0 0 10px 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 2px 3px rgba(100, 100, 100, 0.3);
+    -moz-box-shadow: 2px 2px 3px rgba(100, 100, 100, 0.3);
+    box-shadow: 2px 2px 3px rgba(100, 100, 100, 0.3);
+    background-color: #F0F0F0;
+}
+
+#potraznja-najnoviji .potraznja-intro {
+    width: 160px;
+    float: none;
+    margin: 0 0 10px 0;
+}
+
+.potraznja-intro .trazim {
+    color: #0064C8;
+    margin-bottom: 5px;
+}
+
+.potraznja-intro .naslov, .potraznja-intro .mjesto {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.potraznja-intro .naslov, .oglas-intro h3, 
+.istaknuti-oglas-intro h3, .najgledaniji-oglas-intro h3, 
+.rezultati-pretrage-oglas-intro h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+#potraznja-najnoviji .potraznja-intro .naslov, #potraznja-najnoviji  .potraznja-intro .mjesto {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.potraznja-intro .potraznja-detalji {
+    float: right;
+}
+
+.potraznja-detalji a {
+    border: 1px solid #9ecaed;
+    border-radius: 3px;
+    padding: 2px;
+    background-color: #F0F0F0;
+}
+
+.potraznja-detalji a:hover {
+    background-color: #fff;
+    box-shadow: 0 0 5px #9ecaed;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-decoration: none;
+}
+
+#detalji-oglasa-potraznja .column-1, #detalji-oglasa-potraznja .column-2 {
+    width: 340px;
+    float: left;
+}
+
+#detalji-oglasa-potraznja .column-2 {
+    margin-left: 20px;
+}
+
+#detalji-oglasa-potraznja p.hr {
+    margin: 10px 0 !important;
+}
+
+#detalji-oglasa-potraznja .kontakt-podaci {
+    width: 690px;
+    border: 1px solid #ccc;
+    border-top: 0;
+    margin: 0 auto 10px auto;
+}
+
+#detalji-oglasa-potraznja .kontakt-podaci .naslov {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-left: 0;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.izbornik {
+    float: left;
+    margin-left: 23%;
+}
+
+.izbornik ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+li.first-item {
+    margin-left: 0;
+}
+
+.izbornik a, .logo a {
+    font-size: 15px;
+    color: #fff;
+    -o-transition: .6s;
+    -ms-transition: .6s;
+    -moz-transition: .6s;
+    -webkit-transition: .6s;
+    transition: .6s;
+}
+
+.izbornik a.istaknuto {
+    color: #fff;
+}
+
+.izbornik a:hover, .logo a:hover {
+    color: #fff000;
+    -webkit-animation: ease;
+    -o-animation: ease;
+    animation: ease;
+    text-decoration: none;
+}
+
+.izbornik .active {
+    font-weight: bold;
+}
+
+/* -- Content -- */
+
+#content-wrapper-home, #content-wrapper {
+    width: 960px;
+    margin: 0 auto;
+    float: left;
+}
+/*
+#content-wrapper {
+        width: 960px;
+        margin: 0 auto;
+}
+*/
+
+.karta p {
+    color: #0064C8;
+    text-align: center;
+}
+
+#regije {
+    position: relative;
+}
+
+#regije a {
+    color: #000;
+    text-shadow: 1px 1px 1px #fff;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+#regije a:hover {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    -webkit-animation: ease;
+    -o-animation: ease;
+    animation: ease;
+    text-decoration: none;
+}
+.regija-0, .regija-1, .regija-2, .regija-3, .regija-4, .regija-5, .regija-6, .regija-7 {
+    position: absolute;
+    display: block;
+    width: 80px;
+}
+
+.regija-0 {
+    top: 87px;
+    left: 185px;
+}
+
+.regija-1 {
+    top: 397px;
+    left: 286px;
+}
+
+.regija-2 {
+    top: 145px;
+    left: 17px;
+}
+
+.regija-3 {
+    top: 200px;
+    left: 109px;
+}
+
+.regija-4 {
+    top: 125px;
+    left: 65px;
+}
+
+.regija-5 {
+    top: 277px;
+    left: 165px;
+}
+
+.regija-6 {
+    top: 320px;
+    left: 212px;
+}
+
+.regija-7 {
+    top: 254px;
+    left: 130px;
+}
+
+#banner-bottom-wrapper {
+    margin-bottom: -20px;
+}
+
+.animirani-banner {
+    margin-bottom: 10px;
+}
+
+.logotipi {
+    width: 960px;
+    margin: 0 auto 10px auto;
+}
+
+.logotipi div {
+    float: left;
+    margin-left: 15px;
+}
+
+.logotipi div.first-item {
+    margin: 0;
+}
+
+
+#content .content-left {
+    width: 710px;
+    margin: 10px 10px 10px 0;
+    float: left;
+}
+
+.content-left #banner-left, .content-left #potraznja-najnoviji {
+    float: left;
+    width: 180px;
+    padding: 10px 10px 0 10px;
+    margin-right: 15px;
+    background-color: #ddd;
+}
+
+.content-left #potraznja-najnoviji {
+    background-color: #fff;
+    padding: 0;
+}
+
+#banner-left .banner img {
+    margin-bottom: 10px;
+}
+
+.content-left #content-main-home, .content-left #content-potraznja-home {
+    float: left;
+    width: 490px;
+}
+
+#content .content-right {
+    width: 240px;
+    margin: 10px 0;
+    float: left;
+}
+
+#content-main-home .karta, #content-potraznja-home .karta {
+    width: 460px;
+    height: 460px;
+    background: url(../images/karta.png) no-repeat 0 0;
+}
+
+.breadcrumb {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    border-radius: 3px 3px 0 0;
+    display: inline-block;
+}
+
+.breadcrumb a {
+    text-shadow: 1px 1px 1px #fff;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.breadcrumb a:hover {
+    color: #3399FF;
+    text-shadow: 1px 1px 1px #ececec;
+    -webkit-animation: ease;
+    -o-animation: ease;
+    animation: ease;
+    text-decoration: none;
+}
+
+.opcije-prikaza {
+    margin: 5px 0;
+}
+
+.fb-share {
+    margin-top: 10px;
+}
+
+.fb-share a {
+    display: inline-block;
+    padding: 0 10px 0 5px;
+    background: url(../images/fb_share_bg.png) repeat-x 0 0;
+    border: 1px solid #8aa6db;
+    border-radius: 5px;
+    height: 30px;
+    color: #fff;
+}
+
+.fb-share span {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.fb-share img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px 4px 0;
+}
+
+#sakrij-mjesta, #sakrij-mjesta-potraznja {
+    display: none;
+}
+
+#map-mjesta {
+    /*width: 700px;*/
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 0 0 5px 5px;
+}
+
+#popis-mjesta p {
+    width: 230px;
+    float: left;
+}
+
+#detalji-oglasa, #detalji-oglasa-potraznja {
+    border: 1px solid #ddd;
+}
+
+#detalji-oglasa .left, #detalji-oglasa .right {
+    width: 340px;
+    float: left;
+}
+
+#detalji-oglasa .right {
+    padding-top: 15px;
+    margin-left: 25px;
+}
+
+#detalji-oglasa #map-canvas {
+    width: 706px;
+}
+
+#detalji-oglasa .border {
+    border-bottom: 1px solid #ccc;
+}
+
+/* -- Registracija, Novi oglas, Zaboravljena lozinka -- */
+.form-registracija {
+    padding-left: 10px;
+}
+
+.form-registracija .item-1, #novi-oglas .item-1, .uredi-slike .item-1 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.form-registracija .item-2, .form-zaboravljena-lozinka .item-2,
+#content-rezultati-pretrage .item-2, #novi-oglas .item-2,
+#detalji-oglasa-potraznja .item-2, .uredi-slike .item-2 {
+    margin: 20px 0;
+    background-color: #ffe980;
+    padding: 5px 0 5px 5px;
+    width: 47%;
+    border-radius: 5px;
+    box-shadow:1px 2px 3px;
+}
+
+.form-uredi-slike input[type="file"] {
+    clear:left;
+    margin-top:5px;
+}
+
+.form-uredi-slike input[type="submit"] {
+    float:right;
+}
+
+#detalji-oglasa-potraznja .item-2 {
+    width: auto;
+    margin: 5px;
+}
+
+#content-rezultati-pretrage .item-2 {
+    margin: 10px 0;
+    width: auto;
+}
+
+.form-registracija .item-3 {
+    background-color: #ffe980;
+    padding: 5px 0 5px 5px;
+    width: 47%;
+    border-radius: 5px;
+    box-shadow:1px 2px 3px;
+}
+
+.form-radio p, .form-checkbox p, .trazilica .dropdown, .trazilica .upit {
+    float: left;
+    margin-right: 10px;
+    width: 165px;
+}
+
+.form-trazilica p {
+    width: 210px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.trazilica .upit {
+    width: 350px;
+}
+
+.trazilica .upit input {
+    width: 280px;
+}
+
+.trazilica .upit input[type="text"] {
+    background-color: #fff;
+}
+
+.trazilica .upit input[type="text"]:hover {
+    background-color: #fff;
+}
+
+.trazilica .upit input[type="text"]:focus {
+    border: 1px solid #9ecaed;
+    background-color: #fff;
+    box-shadow: 0 0 5px #9ecaed;
+}
+
+.upit label {
+    display: inline;
+    margin-right: 10px;
+}
+
+.trazilica .dropdown {
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.trazilica .dropdown select {
+    height: 30px;
+    padding: 5px;
+}
+
+.form-trazilica {
+    /*width: 960px;*/
+}
+
+.trazilica .submit {
+    display: inline-block;
+    position: relative;
+    bottom: -10px;
+    left: 310px;
+}
+
+.trazilica {
+    margin-top: 25px;
+    color: #fff;
+    margin-left:70px;
+}
+
+.form-registracija .form-radio p {
+    width: auto;
+}
+
+.form-label {
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+}
+
+.form-registracija .type-text {
+    width: 100%;
+}
+
+.form-registracija .uvjeti-koristenja {
+    margin-top: 10px;
+}
+
+.form-registracija .error, #login .error, #novi-oglas .error,
+.popis-slika .error {
+    margin-bottom: 5px;
+    background-color: #FFD8CD;
+    border: 1px solid #FF4444;
+    border-radius: 5px;
+    padding: 5px 0 5px 5px;
+    width: 250px;
+    word-spacing: 1px;
+}
+
+#login .error {
+    width: 97%;
+}
+
+#content-rezultati-pretrage .info span, .rezultati span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#content-rezultati-pretrage .rezultati {
+    margin-top: 10px;
+    line-height: 18px;
+}
+
+#novi-oglas {
+    /*border-right: 1px solid #999;*/
+}
+
+.uredi-slike {
+    margin-top: 10px;
+}
+
+.uredi-slike .item-1 {
+    margin-bottom: 10px;
+}
+
+#novi-oglas .error {
+    width: 43%;
+}
+
+.novi-oglas-potraznja .dodatni-podaci .error {
+    width: 175px !important;
+}
+
+#novi-oglas .item-2 {
+    margin: 10px 0 !important;
+}
+
+.form-registracija .item-3 .error {
+    width: 245px;
+}
+
+.submit {
+    margin-top: 10px;
+}
+
+#novi-oglas input[type="text"] {
+    width: 300px;
+}
+
+.multi-column p {
+    width: 180px;
+    float: left;
+}
+
+#novi-oglas .dodatni-podaci div, .novi-oglas-potraznja .multi-column div {
+    float: left;
+    width: 350px;
+}
+
+.novi-oglas-potraznja .dodatni-podaci div {
+    width: 235px !important;
+}
+
+.novi-oglas-potraznja .dodatni-podaci input {
+    width: 175px !important;
+}
+
+.form-radio.multi-column div {
+    width: 175px;
+}
+
+.form-radio.cijena div, .multi-column.cijena p {
+    width: 250px;
+}
+
+.form-radio.cijena div:first-child {
+    width: 150px;
+}
+
+.form-radio.cijena input[type="text"] {
+    width: 130px !important;
+}
+
+.multi-column p.error {
+    width: 85% !important;
+}
+
+.small-input input {
+    width: 190px !important;
+}
+
+.small-input div {
+    float: left;
+    width: 230px !important;
+}
+
+.form-zaboravljena-lozinka {
+    padding: 0 10px 0 0;
+}
+
+.form-zaboravljena-lozinka .type-text {
+    width: 300px !important;
+}
+
+.form-zaboravljena-lozinka .error {
+    width: 300px !important;
+}
+
+/* -- popis oglasa intro/cijeli oglas*/
+#popis-oglasa {
+    border: 1px solid #ddd;
+}
+
+#popis-oglasa .oglas-intro {
+    width: 190px;
+    padding: 10px;
+    float: left;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin: 10px;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+#popis-oglasa .oglas-intro:hover {
+    -webkit-box-shadow: 2px 2px 3px rgba(100, 100, 100, 0.75);
+    -moz-box-shadow: 2px 2px 3px rgba(100, 100, 100, 0.75);
+    box-shadow: 2px 2px 3px rgba(100, 100, 100, 0.75);
+    -webkit-animation: ease;
+    -o-animation: ease;
+    animation: ease;
+    text-decoration: none;
+}
+
+.oglas-intro h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #0064C8;
+    font-weight: bold;
+}
+
+.zvijezdice {
+    margin-bottom: 10px;
+}
+
+.zvijezdice img {
+    width: 16px;
+    height: 16px;
+}
+
+.slika-intro img {
+    width: 190px;
+    height: 143px;
+    -webkit-box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.75);
+    box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.75);
+}
+
+#istaknuti-oglasi {
+    margin-bottom: 10px;
+}
+
+#istaknuti-oglasi, #najgledaniji-oglasi {
+    width: 490px;
+}
+
+.istaknuti-oglasi-wrapper, .najgledaniji-oglasi-wrapper {
+    width: 480px;
+    margin: 0 auto;
+}
+
+#najgledaniji-oglasi p.naslov, #istaknuti-oglasi p.naslov {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 465px;
+}
+
+.potraznja-0, #content-main-home .oglas-0, #content-main-home .oglas-3, #content-main-home .oglas-6, #content-main-home .oglas-9, 
+#gallery ul img.slika-0, #gallery-apartman ul img.slika-0, #content-rezultati-pretrage .oglas-0, #content-rezultati-pretrage .oglas-4, #content-rezultati-pretrage .oglas-8,
+#content-rezultati-pretrage .oglas-12, #content-rezultati-pretrage .oglas-16 {
+    margin: 0;
+}
+
+.najgledaniji-oglas-intro, .istaknuti-oglas-intro, .rezultati-pretrage-oglas-intro {
+    float: left;
+    margin: 0 0 10px 10px;
+    border: 1px solid #ccc;
+    /*box-shadow: 0 0 5px #cc;*/
+    border-radius: 3px;
+    padding: 5px;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    transition: .3s;
+    width: 140px;
+}
+
+.rezultati-pretrage-oglas-intro {
+    margin: 0 0 10px 31px;
+}
+
+.najgledaniji-oglas-intro:hover, .istaknuti-oglas-intro:hover, .rezultati-pretrage-oglas-intro:hover{
+    -webkit-box-shadow: 2px 2px 3px rgba(100, 100, 100, 0.75);
+    -moz-box-shadow: 2px 2px 3px rgba(100, 100, 100, 0.75);
+    box-shadow: 2px 2px 3px rgba(100, 100, 100, 0.75);
+    -webkit-animation: ease;
+    -o-animation: ease;
+    animation: ease;
+    border: 1px solid #357ae8;
+    text-decoration: none;
+}
+
+.najgledaniji-oglas-intro h3, .istaknuti-oglas-intro h3, .rezultati-pretrage-oglas-intro h3 {
+    margin-bottom: 5px;
+}
+
+.najgledaniji-oglas-intro .slika-intro img, .istaknuti-oglas-intro .slika-intro img, .rezultati-pretrage-oglas-intro .slika-intro img {
+    width: 140px;
+    height: 105px;
+    -webkit-box-shadow: 2px 2px 3px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 2px 2px 3px rgba(50, 50, 50, 0.75);
+    box-shadow: 2px 2px 3px rgba(50, 50, 50, 0.75);
+}
+
+.najgledaniji-oglas-intro .tip-smjestaja, .istaknuti-oglas-intro .tip-smjestaja, .rezultati-pretrage-oglas-intro .tip-smjestaja {
+    margin-top: 5px;
+}
+
+.najgledaniji-oglas-intro .zvijezdice, .istaknuti-oglas-intro .zvijezdice, .rezultati-pretrage-oglas-intro .zvijezdice {
+    margin: 0;
+}
+
+#detalji-oglasa .opis, #detalji-oglasa-potraznja .opis {
+    font-weight: bold;
+    color:rgb(0,100,200);
+}
+
+.opis span {
+    font-weight: normal;
+}
+
+#detalji-oglasa .tip-smjestaja, #detalji-oglasa-potraznja .tip-smjestaja {
+    font-size: 14px;
+}
+
+#detalji-oglasa h3, #detalji-oglasa-potraznja h3 {
+    margin: 10px 0 10px 10px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #0064C8;
+}
+
+#detalji-oglasa-potraznja h4 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#detalji-oglasa #map-canvas {
+    margin-bottom: 10px;
+}
+
+#detalji-oglasa .broj-pregleda, #detalji-oglasa-potraznja .broj-pregleda {
+    margin: 0 10px 0 0;
+    font-weight: bold;
+    float: right;
+}
+
+#detalji-oglasa p, #detalji-oglasa .zvijezdice, #detalji-oglasa ul.jezici, 
+#detalji-oglasa ul.detalji-objekta, #detalji-oglasa ul.detalji-apartmana, 
+#detalji-oglasa ul.detalji-kampa, #detalji-oglasa-potraznja p, #detalji-oglasa-potraznja ul,
+#detalji-oglasa-potraznja ul.detalji-smjestaja-potraznja, #detalji-oglasa-potraznja h4 {
+    margin: 0 0 10px 10px;
+    line-height:1.5;
+}
+
+#detalji-oglasa .dodatne-usluge .opis-usluga {
+    max-height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.dodatne-usluge .zastavice {
+    display: inline-block;
+    margin: 0 0 5px 10px;	
+}
+
+.dodatne-usluge .zastavice.first-item {
+    margin: 0;
+}
+
+.dodatne-usluge .opis-usluga p {
+    border-top: 1px solid #ccc;
+}
+
+.zvijezdice p.opis {
+    margin-left: 0 !important;
+    margin-bottom: 5px !important;
+}
+
+ul.jezici, ul.detalji-objekta, 
+ul.detalji-apartmana, ul.detalji-kampa,
+ul.detalji-smjestaja-potraznja {
+    list-style: disc inside none;
+}
+
+ul.detalji-smjestaja-potraznja span, span.datumi {
+    font-weight: bold;
+    color: #0064C8;
+}
+
+ul.detalji-apartmana {
+    margin: 0 0 5px 15px;
+}
+
+.ostale-informacije {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.ostale-informacije div {
+    width: 177px;
+    float: left;
+}
+
+.tabs {
+    padding-left: 10px;
+}
+
+.tabs input[type="button"], .content-controls input[type="button"] {
+    font-size: 14px;
+    color: #757575;
+    text-shadow: none;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.tabs input[type="button"]:hover, .content-controls input[type="button"]:hover {
+    color: #4D90FE;
+    text-shadow: none;
+    border-bottom: 0;
+}
+
+.tabs input[type="button"]:active, .content-controls input[type="button"]:active {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3) inset;
+}
+
+.tabs input.active, .content-controls input.active {
+    color: #357ae8;
+    pointer-events: none;
+    cursor: default;
+}
+
+.apartman-detalji {
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.dodatne-usluge table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+.dodatne-usluge table td {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dodatne-usluge .leading-row {
+    font-weight: bold;
+    text-align: center;
+}
+
+.content-controls {
+    position: relative;
+    left: 625px;
+    display: inline-block;
+}
+
+.content-controls input[type="button"] {
+    padding: 5px 10px;
+}
+
+/* -- stranica: poslovnice -- */
+.poslovnice-l, .poslovnice-m, .poslovnice-r {
+    float: left;
+    margin-right: 10px;
+    width: 30%;
+    font-size: 10pt;
+}
+
+/* -- stranica: o nama/upute/uvjeti -- */
+.content-upute-koristenja p {
+    margin-bottom: 10px;
+    line-height: 130%;
+}
+
+.content-upute-koristenja ul, .content-uvjeti-koristenja ul, .content-cijena ul {
+    margin-bottom: 20px;
+    line-height: 130%;
+    list-style: disc inside none;
+}
+
+.content-upute-koristenja strong.istaknuto.boja, .content-cijena strong.istaknuto.boja {
+    font-size: 16px;
+}
+
+.content-upute-koristenja .istaknuto.boja, .content-cijena strong.istaknuto.boja {
+    color: #0064C8;
+}
+
+.content-o-nama p, .content-uvjeti-koristenja p, .content-cijena p {
+    line-height: 1.4;
+}
+
+.content-uvjeti-koristenja span.istaknuto.velicina, .content-cijena span.istaknuto.velicina {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.content-uvjeti-koristenja h2.istaknuto.velicina, .content-cijena h2.istaknuto.velicina {
+    font-size: 18pt;
+}
+
+.content-uvjeti-koristenja h3.istaknuto.velicina, .content-cijena h3.istaknuto.velicina {
+    font-size: 16pt;
+}
+
+.content-uvjeti-koristenja .istaknuto.boja-1, .content-cijena .istaknuto.boja-1 {
+    color: #8e0000;
+}
+
+.content-uvjeti-koristenja .istaknuto.boja-2, .content-cijena .istaknuto.boja-2 {
+    color: #ff0000;
+}
+
+.content-uvjeti-koristenja .istaknuto.boja-3, .content-cijena .istaknuto.boja-3, .content-o-nama .istaknuto.boja-3, .content-upute-koristenja .istaknuto.boja-3{
+    color: #0064c8;
+}
+
+/* -- Galerija slika -- */
+#gallery, #gallery-apartman {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 85px;
+    margin-bottom: 10px;
+}
+
+#gallery ul, #gallery-apartman ul {
+    list-style: none;
+}
+
+#gallery ul li, #gallery-apartman ul li {
+    display: inline;
+}
+
+#gallery ul img, #gallery-apartman ul img {
+    width: 96px;
+    height: 72px;
+    border: 5px solid #fff;
+    border-width: 5px 5px 10px;
+    -webkit-box-shadow: 2px 2px 3px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 2px 2px 3px rgba(50, 50, 50, 0.75);
+    box-shadow: 2px 2px 3px rgba(50, 50, 50, 0.75);
+    margin-left: 7px;
+}
+
+#gallery ul a:hover img, #gallery-apartman ul a:hover img {
+    margin-bottom: 5px;
+}
+
+#gallery ul a:hover, #gallery-apartman ul a:hover {
+    color: #fff;
+}
+
+/* -- Moduli -- */
+
+#login, #social, #korisnicki-izbornik {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#korisnicki-izbornik .korisnicki-izbornik-opcije {
+    border: 1px solid #cecece;
+    line-height:2;
+}
+
+#korisnicki-izbornik .korisnicki-izbornik-opcije p {
+    padding: 0 10px;
+}
+
+#korisnicki-izbornik p.opcija:hover {
+    background-color: #f9f9f9;
+}
+
+#korisnicki-izbornik p.opcija:not(.odjava) {
+    border-bottom: 1px solid #ccc;
+}
+
+#korisnicki-izbornik .pozdrav strong, #korisnicki-izbornik .odjava {
+    font-weight: bold;
+}
+
+#login .login-content, #social .social-content {
+    padding: 10px;
+    border: 1px solid #cecece;
+    line-height:2;
+}
+
+#login .type-text {
+    width: 97%;
+}
+
+#login .submit, #login .submit input {
+    margin: 5px auto 0 auto;
+    width: 150px;
+}
+
+#login .form-links {
+    margin: 5px 0;
+}
+
+#social .module-title {
+    font-size: 10pt !important;
+}
+
+.social-content img {
+    margin: 5px 30px;
+}
+
+.social-content img:first-child {
+    margin-right: 0;
+}
+
+#brojac-posjeta {
+    border: 1px solid #cecece;
+    padding: 10px 5px;
+}
+/* -- Info page -- */
+
+.info, .warning {
+    padding: 20px;
+    background-color: #D6EBFF;
+    border-radius: 3px 3px 3px 3px;
+    font-size: 12pt;
+}
+
+.warning {
+    background-color: #FFD8CD;
+    border: 1px solid #FF4444;
+}
+
+/* -- Pagination -- */
+#pagination {
+    clear: both;
+    text-align: center;
+    padding-top: 3px;
+    margin: 10px 0;
+    border-top: 1px solid #ddd;
+}
+
+#pagination span.previous, #pagination span.first, #pagination span.next, #pagination span.last {
+    margin: 0 3px;
+}
+
+#pagination span.page {
+    margin: 0 1px;
+}
+
+/* -- Footer -- */
+#footer-wrapper {
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    /*background: url('../images/footer_bg.png') repeat-x 0 0;*/
+    border-top: 1px solid #9ecaed;
+    box-shadow: 0 0 5px #9ecaed;
+    padding-bottom: 10px;
+}
+
+.izbornik-footer {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
+.izbornik-footer ul li {
+    display: inline;
+    padding: 5px 10px;
+    border-right: 1px solid #ccc;
+}
+
+.izbornik-footer ul li.first-item {
+    border-left: 1px solid #ccc;
+}
+
+#to-top {
+    display: none;
+    border: 1px solid #ccc;
+    border-right: 0;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 30px;
+    height: 50px;
+    background-color: #f0f0f0;
+    position: fixed;
+    right: 0;
+    bottom: 250px;
+}
+
+#to-top a {
+    display: block;
+    margin-top: 7px;
+    width: 30px;
+    height: 30px;
+    background: url('../images/top.png') no-repeat 0 0;
+}
+
+#to-top a:hover {
+    margin-top: 8px;
+}
+
+.copyright {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    color: #000;
+    padding-top: 18px;
+}
+
+/* -- Tečajna lista -- */
+#tecajna-lista {
+    width: 240px;
+    font-family: Arial;
+    font-size: 8pt;
+    margin-bottom: 20px;
+}
+
+#tecajna-lista table {
+    width: 100%;
+    border: 1px dotted #cecece;
+}
+
+#tecajna-lista table td {
+
+    text-align: center;
+    padding: 3px 0;
+}
+
+#tecajna-lista img {
+    margin-bottom: 5px;
+    float: right;
+}
+
+.row td:first-child {
+    text-align: left !important;
+    padding-left: 2px !important;
+}
+
+.row td:last-child {
+    padding-right: 2px !important;
+}
+
+.row_bg td {
+    background-color: #cecece;
+    border-right: 2px solid #fff;
+}
+
+.row_bg td:last-child {
+    border-right: none;
+}
+
+.tecajna-naslov, .module-title {
+    color: #fff;
+    background-color: #0077D2;
+    font-size: 12pt;
+    height: 25px;
+    padding: 7px 5px 5px;
+}
+
+.tecajna-podnaslov-glavni {
+    font-weight: bold;
+    border-bottom: 1px solid #999;
+    text-align: center !important;
+    background-color: #fff;
+}
+
+.tecajna-podnaslov {
+    font-weight: bold;
+}
+
+.row_bg-podnaslov {
+    background-color: #dbdbdb;
+}
+
+#tecajna-kalkulator {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    min-height: 130px;
+}
+
+#tecajna-kalkulator input, #tecajna-kalkulator select {
+    width: auto;
+    color: #4A4A4A;
+    text-shadow: none;
+}
+
+#tecajna-kalkulator select {
+    margin: 0 7px;
+}
+
+#tecajna-kalkulator input[type=text] {
+    margin: 1px 0 0 5px;
+    height: 14px;
+}
+
+#tecajna-kalkulator select:last-child {
+    margin-right: 0;
+}
+
+.vrsta-tecaja {
+    padding: 5px 0;
+}
+
+.tecaj {
+    margin: 5px 0;
+}
+
+.tecaj select {
+    font-size: 9pt;
+    height: 19px;
+    padding: 1px 0;
+    position: relative;
+    bottom: -1px;
+}
+
+.tecajna-iznos {
+    width: 50px !important;
+    margin-left: 2px;
+    font-size: 9pt;
+}
+
+.vrsta-tecaja p {
+    padding: 0 2px;
+}
+
+.vrsta-tecaja p span {
+    float: left;
+    margin: 0 5px;
+}
+
+.kalkulator-button {
+    width: 240px;
+}
+
+.kalkulator-button p {
+    width: 110px;
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+.greska p {
+    width: 228px;
+    margin: 5px 2px;
+    padding: 2px;
+    border: 1px solid #ff4444;
+    background-color: #FFD8CD;
+    border-radius: 3px;
+    font-size: 10pt;
+}
+
+.rezultat p {
+    width: 208px;
+    margin: 5px 2px;
+    padding: 2px;
+    border: 1px solid #3399FF;
+    background-color: #D6EBFF;
+    border-radius: 3px;
+    font-size: 10pt;
+}
+
+/* -- korisnik -- */
+#korisnicke-stranice .korisnik-oglasi table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+#korisnicke-stranice .korisnik-oglasi table td {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#korisnicke-stranice .korisnik-oglasi .leading-row  {
+    font-weight: bold;
+    text-align: center;
+}
+
+#korisnicke-stranice .korisnik-oglasi .aktivan-0 {
+    background-color: #FF8C8C;
+}
+
+#korisnicke-stranice .korisnik-oglasi .aktivan-1 {
+    background-color: #00FF99;
+}
+
+/* -- uređivanje slika -- */
+#korisnicke-stranice .uredi-slike .popis-slika {
+    width: 698px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;	
+}
+
+#korisnicke-stranice .uredi-slike .popis-slika div {
+    float: left;
+    margin-left: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#korisnicke-stranice .uredi-slike .popis-slika p {
+    padding: 5px 0;
+    background-color: #E5E5E5;
+    text-align: center;
+}
+
+.uredi-slike p.item-2, .popis-slika .error {
+    width: 665px;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+.uredi-slike p.item-2 {
+    background-color: #ffe980 !important;
+}
+
+.popis-slika .error {
+    background-color: #FFD8CD !important;
+}
+
+.uredi-slike .result {
+    margin-bottom: 10px;
+}
+
+/*
+#korisnicke-stranice .uredi-slike div:first-child {
+        margin-left: 1px;
+}
+*/
+
+#korisnicke-stranice .uredi-slike .popis-slika img {
+    width: 200px;
+    height: 150px;
+}
+
+/* -- karta -- */
+#map-wrapper, #content-karta {
+    width: 690px;
+    height: 500px;
+    margin: 10px auto;
+    padding: 2px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#content-karta {
+    width: 700px;
+    height: auto;
+    margin: 0;
+}
+
+#content-karta #control {
+    background-color: rgba(200, 200, 200, 0.75);
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+#control input[type="button"] {
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    padding: 5px;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    border-radius: 5px;
+}
+
+#control input[type="button"]:hover {
+    background-color: #357ae8;
+    color: #fff;
+    text-shadow: 1px 1px 1px #999;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid #2f5bb7;
+}
+
+#control input[type="button"]:active {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3) inset;
+}
+
+#directions-panel .adp-placemark td {
+    padding: 5px;
+}
+
+#directions-panel .adp-directions tr:hover {
+    background-color: #eee;
+}
+
+#directions-panel .adp-summary {
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+#directions-panel .adp-text {
+    font-size: 16px;
+}
+
+.detalji-map-wrapper {
+    border-top: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#map-canvas {
+    margin: 0 auto;
+    width: 690px;
+    height: 500px;
+}
+
+#content-karta #map-canvas {
+    width: 700px;
+}
+
+#map-options {
+    /*margin-bottom: 10px;*/
+}
+
+#map-options a {
+    text-decoration: none;
+    color: #0064c8;
+}
+
+#firstRow {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+/* -- buttoni za kontrolu stranice/karte -- */
+.buttonControls {
+    float: left;
+}
+
+.buttonControls input:first-child {
+    margin-right: 10px;
+}
+
+#geo-coords input {
+    width: 196px !important;
+    margin: 0 10px;
+}
+
+#geo-coords input:last-child {
+    margin-right: 0;
+}
+
+/* --  -- */
+.zoomInfo {
+    float: right;
+    font-size: 12pt;
+    margin-top: 2px;
+}
+
+#zoomLevel {
+    font-weight: bold;
+}
+
+/* -- AJAX -- */
+.loading {
+    display: none;
+    position: static;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 32px;
+    width: 700px;
+    background: rgba( 255, 255, 255, 0 ) url('../images/ajax-loader-2.gif') 50% 50% no-repeat;
+}
+
+.loading-0 {
+    display: none;
+    position: relative;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 32px;
+    width: 32px;
+    background: rgba( 255, 255, 255, 0 ) url('../images/ajax-loader-4.gif') 50% 50% no-repeat;
+    float: left;
+    margin-right: 10px;
+}
+
+/* -- Stilovi za druge preglednike -- */
+/* -- ############################### --*/
+/* --Opera -- */
+*:-o-prefocus, #geo-coords input {
+    width: 203px !important;
+}
+/* -- END of Opera --*/
+
+/*
+ body, html { overflow-x: hidden; overflow-y: hidden; }
+*/
+/**
+ * jQuery lightBox plugin
+ * This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)
+ * and adapted to me for use like a plugin from jQuery.
+ * @name jquery-lightbox-0.5.css
+ * @author Leandro Vieira Pinho - http://leandrovieira.com
+ * @version 0.5
+ * @date April 11, 2008
+ * @category jQuery plugin
+ * @copyright (c) 2008 Leandro Vieira Pinho (leandrovieira.com)
+ * @license CC Attribution-No Derivative Works 2.5 Brazil - http://creativecommons.org/licenses/by-nd/2.5/br/deed.en_US
+ * @example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin
+ */
+#jquery-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    width: 100%;
+    height: 500px;
+}
+#jquery-lightbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+    line-height: 0;
+}
+#jquery-lightbox a img {
+    border: none;
+}
+#lightbox-container-image-box {
+    position: relative;
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+#lightbox-container-image {
+    padding: 10px;
+}
+#lightbox-loading {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    line-height: 0;
+}
+#lightbox-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav {
+    left: 0;
+}
+#lightbox-nav a {
+    outline: none;
+}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+    width: 49%;
+    height: 100%;
+    zoom: 1;
+    display: block;
+}
+#lightbox-nav-btnPrev {
+    left: 0;
+    float: left;
+}
+#lightbox-nav-btnNext {
+    right: 0;
+    float: right;
+}
+#lightbox-container-image-data-box {
+    font: 10px Verdana, Helvetica, sans-serif;
+    background-color: #fff;
+    margin: 0 auto;
+    line-height: 1.4em;
+    overflow: auto;
+    width: 100%;
+    padding: 0 10px 0;
+}
+#lightbox-container-image-data {
+    padding: 0 10px;
+    color: #666;
+}
+#lightbox-container-image-data #lightbox-image-details {
+    width: 70%;
+    float: left;
+    text-align: left;
+}
+#lightbox-image-details-caption {
+    font-weight: bold;
+}
+#lightbox-image-details-currentNumber {
+    display: block;
+    clear: left;
+    padding-bottom: 1.0em;
+}
+#lightbox-secNav-btnClose {
+    width: 66px;
+    float: right;
+    padding-bottom: 0.7em;
+}

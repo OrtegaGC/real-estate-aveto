@@ -1,0 +1,17 @@
+﻿## index - engleski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+page_title=Home
+## -------------------------------------------------------------------------------- ##
+
+trazilica_na_karti= Search for places on the map
+## -------------------------------------------------------------------------------- ##
+
+primorsko_goranska=Primorje-Gorski kotar
+istarska=Istria
+licko_senjska=Lika-Senj
+zadarska=Zadar
+sibensko_kninska=Šibenik-Knin
+splitsko_dalmatinska=Split-Dalmatia
+dubrovacko_neretvanska=Dubrovnik-Neretva
+## -------------------------------------------------------------------------------- ##

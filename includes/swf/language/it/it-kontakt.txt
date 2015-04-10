@@ -1,0 +1,21 @@
+﻿## kontakt - talijanski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+kontakt_obrazac=Modulo contatti
+obavezna_polja=Invia un'email. Tutti i campi contrassegnati da * sono obbligatori.
+ime=Nome 
+email=Email
+## -------------------------------------------------------------------------------- ##
+
+predmet=Oggetto del messaggio 
+poruka=Inserire un messaggio 
+## -------------------------------------------------------------------------------- ##
+
+napomena=osservazione
+otkljucavanje=Proves you're human and slide to unlock.
+Zakljucano=Bloccato
+Otkljucano=Sbloccato
+## -------------------------------------------------------------------------------- ##
+
+posalji_email=Invia email
+## -------------------------------------------------------------------------------- ##

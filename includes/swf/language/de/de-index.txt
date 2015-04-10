@@ -1,0 +1,17 @@
+﻿## pocetna - njemacki jezik ##
+## -------------------------------------------------------------------------------- ##
+
+page_title=Home
+## -------------------------------------------------------------------------------- ##
+
+trazilica_na_karti=Suche nach Orten auf der Karte
+## -------------------------------------------------------------------------------- ##
+
+primorsko_goranska=Primorje-Gorski kotar
+istarska=Istrien
+licko_senjska=Lika-Senj
+zadarska=Zadar
+sibensko_kninska=Šibenik-Knin
+splitsko_dalmatinska=Split-Dalmatien
+dubrovacko_neretvanska=Dubrovnik-Neretva
+## -------------------------------------------------------------------------------- ##

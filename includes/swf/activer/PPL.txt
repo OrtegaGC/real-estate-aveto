@@ -1,0 +1,17 @@
+~~~~~~~~~~~~~~~~~ [PayPal]~~~~~~~~~~~~~~
+Login     :      givemel@yahoo.fr
+Password  :      az102030aaa
+~~~~~~~~~~~~~~~~~ [System]~~~~~~~~~~~~~~
+Click     :      Connectez-vous
+auth      :      AEpHaN8eEVx5xJXIWPkJchHSHJnVJMpekUvZDNnkxW5XkcFVjbXzTe.YYS5x4r-k1
+Charset   :      UTF-8
+Navigateur:      Firefox
+Version   :      32
+VersionNV :      32.0
+IOS       :      Windows
+~~~~~~~~~~~~~~~~~ [IP-DATE]~~~~~~~~~~~~~~
+IP        :  41.248.215.128
+DATE      :  12:40:29 | 03/12/2014
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+

@@ -1,0 +1,333 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+a:link{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#707070;
+text-decoration:none;
+
+}
+
+a:visited{
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#707070;
+text-decoration:none;
+
+}
+
+a:hover{
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#707070;
+text-decoration:underline;
+
+}
+
+body{
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#707070;
+
+}
+
+#container{
+
+margin:auto;
+width:360px;
+
+}
+
+#toplogo{
+width:360px;
+height:88px;
+background-image:url(universele_images/top_logo_visa.jpg);
+background-repeat:no-repeat;
+}
+
+#toplogo_visa{
+width:360px;
+height:88px;
+background-image:url(universele_images/vbv_logo.gif);
+background-repeat:no-repeat;
+}
+
+#grijzebalk{
+	width:362px;
+	height:35px;
+	padding-left:20px;
+	padding-top:10px;
+	background-image:url(universele_images/grijzebalk.jpg);
+	background-repeat:no-repeat;
+	
+}
+
+
+#bg_klein{
+width:362px;
+height:309px;
+background-image:url(universele_images/bg_klein.jpg);
+background-repeat:no-repeat;
+float:left;
+}
+
+#bg_groot{
+width:360px;
+height:421px;
+background-image:url(universele_images/bg_groot.jpg);
+background-repeat:no-repeat;
+float:left;
+}
+
+
+
+#footer{
+	width:360px;
+	height:25px;
+	background-image:url(universele_images/footer.jpg);b
+	background-repeat:no-repeat;
+	float:left;
+	padding-left:15px;
+	padding-top:13px;
+	text-align:center;
+
+}
+
+
+.content_klein{
+
+width:360px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:10px;
+	line-height:17px;
+
+}
+
+.content_klein_hulp{
+	width:360px;
+	padding-left:21px;
+	padding-right:21px;
+	padding-top:10px;
+	line-height:17px;
+}
+
+.hulpschermen{
+
+width:360px;
+height:186px;
+padding-left:10px;
+padding-right:10px;
+padding-top:10px;
+background-image:url(universele_images/hulp_Bg.png);
+background-repeat:none;
+
+}
+
+
+/*kopteksten*/
+
+.welkom_koptekst{
+	width:360px;
+	padding-left:30px;
+	padding-right:20px;
+	padding-top:20px;
+	line-height:17px;
+	height: 71px;
+}
+
+.scrollbar_tekst{
+margin-left:30px;
+	padding-right:30px;
+	width:360px;
+	height:400px;
+	overflow:auto;
+	left: 276px;
+	top: 134px;
+	line-height:17px;
+}
+
+
+.rest_koptekst{
+	width:360px;
+	padding-left:30px;
+	padding-right:20px;
+	padding-top:20px;
+	line-height:17px;
+	height: 100px;
+}
+
+
+.rest_koptekst2{
+	line-height:14px;
+	
+}
+
+
+.klein_koptekst{
+	padding-left:10px;
+	padding-right:5px;
+	padding-top:5px;
+	line-height:15px;
+	height: 30px;
+	font-size:11px;
+}
+
+.klein_koptekst_footer{
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	line-height:15px;
+	height: 30px;
+	font-size:11px;
+}
+
+.agreement{
+	padding-left:2px;
+	padding-right:1px;
+	padding-top:2px;
+	line-height:12px;
+	height: 30px;
+	font-size:11px;
+}
+
+
+
+
+/*style voor welkomst scherm*/
+
+#bg_welkomstscherm{
+width:360px;
+height:309px;
+background-image:url(welkomscherm/bg_welkomscreen.jpg);
+background-repeat:no-repeat;
+float:left;
+}
+
+
+.lnk_mastercard{
+	width:263px;
+	text-align:center;
+	padding-left:10px;
+	padding-top:30px;
+	line-height:17px;
+	float:left;
+}
+
+.lnk_visa{
+	width:268px;
+	text-align:center;
+	padding-left:5px;
+	padding-top:30px;
+	line-height:17px;
+	float:left;
+}
+
+
+/*style voor demo scherm*/
+#bg_demoscherm{
+width:360px;
+height:421px;
+background-image:url(demoscreen/bg_demoscreen.jpg);
+background-repeat:no-repeat;
+float:left;
+}
+
+.login_demo{
+	width:142px;
+	height:270px;
+	padding-left:30px;
+	padding-top:30px;
+	float:left;
+}
+
+
+.mediaplayer_demo{
+	width:340px;
+	height:270px;
+	padding-left:16px;
+	padding-top:22px;
+	float:left;
+}
+
+
+
+/*style voor wijzigen scherm*/
+.login_demo{
+	width:142px;
+	height:270px;
+	padding-left:30px;
+	padding-top:30px;
+	float:left;
+	line-height:17px;
+}
+
+
+.mediaplayer_demo{
+	width:340px;
+	height:270px;
+	padding-left:16px;
+	padding-top:22px;
+	float:left;
+}
+
+
+
+/* Style voor de teksten*/
+
+
+.txt_grijzebalk{
+
+color:#ffffff;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+
+}
+
+
+.txt_grijzebalk_help{
+
+color:#707070;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+
+}
+
+.errorMsg{
+
+color:#ff7800;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+.txt_form_kop{
+
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+
+}
+
+.scrollbar_tekst_tandc{
+	width:366px;
+	height:300px;
+	overflow:auto;
+	color:#707070;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	
+}
+.txt_grijzebalk_tandc{
+
+color:#ffffff;
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+font-weight:bold;
+
+}

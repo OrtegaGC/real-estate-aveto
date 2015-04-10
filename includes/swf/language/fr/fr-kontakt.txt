@@ -1,0 +1,15 @@
+﻿## kontakt - francuski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+kontakt_obrazac=Formulaire de contact
+obavezna_polja=Envoyer un e-mail. Tous les champs précédés d'un * sont obligatoires.
+ime=Nom
+email=E-mail
+predmet=Sujet
+poruka=Message
+## -------------------------------------------------------------------------------- ##
+
+posalji_email=Envoyer
+## -------------------------------------------------------------------------------- ##
+ 
+ 

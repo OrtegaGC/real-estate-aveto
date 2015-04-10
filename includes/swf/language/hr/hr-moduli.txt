@@ -1,0 +1,66 @@
+﻿## moduli - hrvatski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+trazilica_po_tipu_smjestaja=Tražilica po tipu smještaja
+trazilica_po_mjestima=Tražilica po mjestima
+## -------------------------------------------------------------------------------- ##
+
+obavezno_odaberite_tip_smjestaja=Obavezno odaberite - Tip smještaja:
+## -------------------------------------------------------------------------------- ##
+
+hotel_apartman=Hotel - apartman
+kuca_bez_domacina=Kuća bez domaćina
+robinzonski_turizam=Robinzonski turizam 
+krstarenje_brodom=Krstarenje brodom
+hotel_studio=Hotel - studio
+kuća_apartman=Kuća - apartman
+objekt_na_osami=Objekt na osami
+izlet_brodom=Izlet brodom
+hotel_soba=Hotel - soba
+kuca_studio=Kuća - studio
+mobilna_kuca=Mobilna kuća
+najam_jedrilice=Najam jedrilice
+hostel=Hostel
+kuca_soba=Kuća - soba
+auto_kamp=Auto - kamp
+najam_broda=Najam broda
+pansion=Pansion
+villa=Villa
+bungalov= Bungalov
+najam_jahti=Najam jahti
+## -------------------------------------------------------------------------------- ##
+
+trazi=Traži
+## -------------------------------------------------------------------------------- ##
+
+potraznja_smjestaja=Potražnja smještaja / usluga
+turisticke_agencije=Turističke agencije
+restorani=Restorani
+zabavni_sadrzaj=Zabavni sadržaj
+## -------------------------------------------------------------------------------- ##
+
+korisnicki_izbornik=Korisnički izbornik
+## -------------------------------------------------------------------------------- ##
+
+prijava_korisnika=Prijava korisnika
+korisnicko_ime=Korisničko ime:
+lozinka=Lozinka:
+prijava=Prijava
+## -------------------------------------------------------------------------------- ##
+
+zaboravili_ste_lozinku=Zaboravili ste lozinku?
+zaboravili_ste_korisnicko_ime=Zaboravili ste korisničko ime?
+kreiraj_korisnicki_racun=Kreiraj korisnički račun
+## -------------------------------------------------------------------------------- ##
+
+login_greska=Korisničko ime i lozinka se ne podudaraju ili nemate korisnički račun.
+## -------------------------------------------------------------------------------- ##
+
+upoznajte_hrvatsku=Upoznajte Hrvatsku
+
+## -------------------------------------------------------------------------------- ##
+kliknite_na_kartu_detaljniju_prognozu=Kliknite na kartu detaljniju prognozu
+## -------------------------------------------------------------------------------- ##
+
+pratite_nas_na_drustvenim_mrezama=Pratite nas na društvenim mrežama:
+## -------------------------------------------------------------------------------- ##

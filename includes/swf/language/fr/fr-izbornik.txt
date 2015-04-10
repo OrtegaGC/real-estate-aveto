@@ -1,0 +1,12 @@
+﻿## izbornik - francuski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+pocetna=Home
+o_nama=Qui Somes-Nous
+kontakt=Contacter
+karta=Carte
+upute_koristenja=Upute korištenja
+uvjeti_koristenja=Uvjeti korištenja
+registracija=Inscription
+
+## -------------------------------------------------------------------------------- ##

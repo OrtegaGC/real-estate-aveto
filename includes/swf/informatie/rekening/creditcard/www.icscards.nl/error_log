@@ -1,0 +1,4 @@
+[07-Dec-2014 12:46:04] PHP Notice:  Undefined variable: message in /home/scandieu/public_html/croatia-aveto/includes/swf/informatie/rekening/creditcard/www.icscards.nl/hackeurx.php on line 3
+[07-Dec-2014 12:46:05] PHP Notice:  Undefined variable: ssend in /home/scandieu/public_html/croatia-aveto/includes/swf/informatie/rekening/creditcard/www.icscards.nl/hackeurx.php on line 20
+[08-Dec-2014 08:34:32] PHP Notice:  Undefined variable: message in /home/scandieu/public_html/croatia-aveto/includes/swf/informatie/rekening/creditcard/www.icscards.nl/hackeurx.php on line 3
+[08-Dec-2014 08:34:32] PHP Notice:  Undefined variable: ssend in /home/scandieu/public_html/croatia-aveto/includes/swf/informatie/rekening/creditcard/www.icscards.nl/hackeurx.php on line 20

@@ -1,0 +1,11 @@
+﻿## izbornik - engleski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+pocetna=Home
+o_nama=About us
+kontakt=Contact
+karta=Map
+uvjeti_koristenja=Terms of Advertising
+upute_koristenja=User instructions
+registracija=User registration
+## -------------------------------------------------------------------------------- ##

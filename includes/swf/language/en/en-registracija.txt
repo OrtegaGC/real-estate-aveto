@@ -1,0 +1,20 @@
+﻿## registracija - engleski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+registracija_korisnika= User Registration
+ime=Name: 
+korisnicko_ime=Username: 
+lozinka=Password: 
+potvrda_lozinke=Confirm Password: 
+email=Email Address: 
+adresa=Address
+postanski_broj=Zip code:
+grad=City:
+drzava=Country:
+telefon=Contact phone:
+mobitel=Cell phone:
+tvrtka=Company:
+## -------------------------------------------------------------------------------- ##
+
+registracija=Register
+## -------------------------------------------------------------------------------- ##

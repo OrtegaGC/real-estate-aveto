@@ -1,0 +1,61 @@
+﻿## moduli - engleski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+trazilica_po_tipu_smjestaja=Search by type of accommodation: 
+trazilica_po_mjestima=Search for places
+## -------------------------------------------------------------------------------- ##
+
+obavezno_odaberite_tip_smjestaja=Must select type of accomodation:
+## -------------------------------------------------------------------------------- ##
+
+hotel_apartman=Hotel - Apartment
+kuca_bez_domacina=House - No host
+robinzonski_turizam=Robinson tourism
+krstarenje_brodom=Cruise 
+hotel_studio=Hotel - Studio
+apartman=Apartment
+objekt_na_osami=Facility in a remote
+izlet_brodom=Boat trip
+hotel_soba=Hotel - Room
+studio=Studio
+mobilna_kuca=Mobile home
+najam_jedrilice=Rental - Sailing boat
+hostel=Hostel
+soba=Room
+auto_kamp=Car camping
+najam_broda=Rental - Boat
+pansion=Boarding house
+villa=Villa
+bungalov= Bungalow
+najam_jahti=Rental - Yacht
+## -------------------------------------------------------------------------------- ##
+
+trazi=Search
+## -------------------------------------------------------------------------------- ##
+
+potraznja_smjestaja=Potražnja smještaja / usluga
+turisticke_agencije=Turističke agencije
+restorani=Restorani
+zabavni_sadrzaj=Zabavni sadržaj
+## -------------------------------------------------------------------------------- ##
+
+prijava_korisnika=User Login
+korisnicko_ime=User Name
+lozinka=Password
+prijava=Log in
+## -------------------------------------------------------------------------------- ##
+
+zaboravili_ste_lozinku=Forgot your password?
+zaboravili_ste_korisnicko_ime=Forgot your username?
+kreiraj_korisnicki_racun=Create an account
+## -------------------------------------------------------------------------------- ##
+
+login_greska=Username and password do not match or you do not have an account yet.
+## -------------------------------------------------------------------------------- ##
+
+upoznajte_hrvatsku=Welcome to Croatia
+## -------------------------------------------------------------------------------- ##
+
+tecajna_lista=Exchange Rates
+pratite_nas_na_drustvenim_mrezama=Social network:
+## -------------------------------------------------------------------------------- ##

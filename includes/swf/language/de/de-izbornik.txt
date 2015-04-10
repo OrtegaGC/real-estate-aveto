@@ -1,0 +1,11 @@
+﻿## izbornik - njemački jezik ##
+## -------------------------------------------------------------------------------- ##
+
+pocetna=Zuhause
+o_nama=Über uns
+kontakt=Kontakt
+karta=Karte
+upute_koristenja=User instructions
+uvjeti_koristenja=Nutzungsbedingungen
+registracija=Benutzer-Registrierung
+## -------------------------------------------------------------------------------- ##

@@ -1,0 +1,34 @@
+﻿## registracija - hrvatski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+page_title=Registracija
+## -------------------------------------------------------------------------------- ##
+
+naziv_obrasca=Registracija korisnika
+obavezna_polja=obavezna polja
+tip_korisnika=Tip korisnika:
+oglasivac=Oglašivač(ponuda):
+korisnik_usluga=Korisnik usluga (potražnja):
+## -------------------------------------------------------------------------------- ##
+
+ime=Ime:
+prezime=Prezime:
+korisnicko_ime=Korisničko ime:
+lozinka=Lozinka:
+potvrda_lozinke=Potvrda lozinke:
+email=E-mail adresa:
+adresa=Adresa:
+postanski_broj=Poštanski broj:
+grad=Grad:
+drzava=Država:
+broj_telefona=Broj telefona:
+broj_mobitela=Broj mobitela:
+oib=OIB:
+tvrtka=Tvrtka/obrt:
+## -------------------------------------------------------------------------------- ##
+
+uvjeti_1=Slažem se s
+uvjeti_2=uvjetima korištenja
+registracija=Registracija
+odustani=Odustani
+## -------------------------------------------------------------------------------- ##

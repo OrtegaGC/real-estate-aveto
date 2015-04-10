@@ -1,0 +1,35 @@
+﻿## registracija - talijanski jezik ##
+## -------------------------------------------------------------------------------- ##
+
+registracija_korisnika= Registrazione utente
+ime=Nome
+korisnicko_ime=Nome utente: 
+lozinka=Password: 
+potvrda_lozinke=Conferma password: 
+email=Indirizzo email:
+## -------------------------------------------------------------------------------- ## 
+
+adresa=Indirizzo:
+postanski_broj=Codice di avviamento postale:
+grad=Citta:	
+drzava=stato
+telefon=Contatto telefonico:	
+mobitel=Mobile:	
+oib=IVA:
+tvrtka=Azienda:
+## -------------------------------------------------------------------------------- ##
+
+registracija=Registrati
+## -------------------------------------------------------------------------------- ##
+
+obavezna_polja=Campi richiesti	
+## -------------------------------------------------------------------------------- ##
+	
+
+	
+	
+
+
+	
+	
+
